@@ -1,0 +1,152 @@
+/* styles.css */
+
+* {
+    font-family: "Poppins", sans-serif;
+
+}
+
+.border {
+    max-width: 1100px;
+    margin: 0px auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid black;
+}
+
+/* header css start here  */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1D4E79;
+    padding-top: 40px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 30px;
+    align-items: center;
+    color: white;
+}
+
+.profile {
+    max-width: 75%;
+}
+
+.name h1{
+    font-size: 3em;
+    margin: 0;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.name p{
+    font-size: 1.1em; 
+    padding-top: 2px;
+    padding-left: 6px;
+    font-weight: normal;
+    margin-top: -9px;
+}
+
+.profile p{
+    padding-left: 10px;
+    width: 95%;
+}
+
+.photo img {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    padding: 2px;
+}
+
+.contact{
+    margin-left: 12px;
+}
+.contact span{
+    padding-right: 10px;
+    margin-left: 4px;
+}
+/* head css ends here */
+
+
+
+.container h3 span{
+    background-color: #2E73B6;
+    font-size: 1.1em;
+    padding: 8px 80px;
+    padding-bottom: 8px;
+    letter-spacing: 0.5px;
+    width: 20%;
+    color: white;}
+
+.container h3{
+    margin-top: 30px;
+    border-bottom: 1px solid #2E73B6;
+    width: 95%;
+    padding-bottom: 7px;
+}
+
+/* experience css start here */
+.job{
+    margin-top: -10px;
+    display: flex;
+    gap: 15px;
+    padding-left: 95px;
+    margin-bottom: 0px;
+
+}
+
+
+.comp{
+    display: flex;
+    width: 75%;
+    padding-left: 197px;
+    margin-top: -56px;
+}
+
+
+
+.date p{
+    padding-left: 68px;
+    margin-top: -25px;
+}
+
+
+/* experience css ends here */
+
+
+/* education css start here */
+
+.edu-col{
+    display: flex;    
+    margin-top: -10px;
+    gap: 15px;
+    padding-left: 81px;
+    margin-bottom: 0px;
+}
+
+.edu-date p{
+    padding-left: 130px;
+    margin-top: -25px;
+}
+
+.edu-para{
+    display: flex;
+    width: 75%;
+    padding-left: 228px;
+    margin-top: -57px;    
+}
+
+.edu-date2 p{
+    padding-left: 122px;
+    margin-top: -25px;
+}
+/* education css ends here */
+
+
+#communication{
+    padding-bottom: 50px;
+}
+
+.communication-para {
+    padding-left: 84px;
+    width: 90%;
+}
