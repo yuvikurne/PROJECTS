@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp-Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="conTainer">
+        <div class="box">
+            <h3> Enter Temperature</h3>
+            <h5>Degree</h5>
+            <div class="value">
+                <input type="number" id="display" value="0">
+                <select id="degreeSelect">
+                    <option value="Celsius"> &deg;C</option>
+                    <option value="Fahrenheit">&deg;F</option>
+                </select>
+            </div>
+            <div class="conVert">
+                <h5 class="in">Convert In</h5>
+                <select id="degreeSelect2">
+                    <option value="Celsius"> Celsius (&deg;C)</option>
+                    <option value="Fahrenheit"> Fahrenheit (&deg;F)</option>
+                </select>
+                <button onclick="ConvertTemperature()" id="conv"> Convert  &#x2192;</button>
+            </div>
+        </div>
+        <div class="box2">
+            <p class="view"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
