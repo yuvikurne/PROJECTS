@@ -25,7 +25,6 @@ document.getElementById('select').addEventListener('change', function() {
     const inputUnit = document.getElementById('select').value;
     const selector = document.getElementById('selector');
 
-    // Add new options based on the selected unit
     if (inputUnit === 'C') {
         selector.value = 'Fahrenheit';
     } else if (inputUnit === 'F') {
